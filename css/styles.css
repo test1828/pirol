@@ -9,6 +9,11 @@ body {
   padding-right: 0 !important;
 }
 
+.wrapper{
+   position:relative;
+   overflow:hidden;
+}
+
 img {
   display: block;
   max-width: 100%;
