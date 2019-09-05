@@ -1,10 +1,19 @@
 $(document).ready(function () {
     
-    $(window).ready(function() { 
+    
+    function loader() {
         $(".loader-inner").fadeOut(); 
         $(".loader").delay(400).fadeOut("slow");
         setTimeout(function(){new WOW().init();}, 500);  
-    });
+    };
+    
+    loader();
+    
+//     $(window).ready(function() { 
+//         $(".loader-inner").fadeOut(); 
+//         $(".loader").delay(400).fadeOut("slow");
+//         setTimeout(function(){new WOW().init();}, 500);  
+//     });
 
     $('.reviews__slider').slick({
         arrows: false,
