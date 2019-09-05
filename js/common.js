@@ -58,7 +58,6 @@ $(document).ready(function () {
 
     $('.humburger').on('click', function () {
         $(this).toggleClass('humburger_active');
-        $('html').toggleClass('hide-scroll');
         $('body').toggleClass('hide-scroll');
     })
 
