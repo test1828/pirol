@@ -119,7 +119,7 @@ $(document).ready(function () {
 
      function parallax() {
          var scrolled = $(window).scrollTop();
-         $('.header').css('background-position', '50% ' + (-scrolled * 0.2) + 'px');
+         $('.header-bg').css('background-position', '50% ' + (-scrolled * 0.2) + 'px');
      };
 
      parallax();
