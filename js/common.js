@@ -1,9 +1,3 @@
-// function loader() {
-//        $(".loader-inner").fadeOut(); 
-//        $(".loader").delay(400).fadeOut("slow");
-//        setTimeout(function(){new WOW().init();}, 500);  
-// };
-
 $(document).ready(function () {
        $(".loader-inner").fadeOut(); 
     $(".loader").delay(400).fadeOut("slow");
@@ -12,14 +6,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     
-    
-//loader();
-    
-//     $(window).ready(function() { 
-//         $(".loader-inner").fadeOut(); 
-//         $(".loader").delay(400).fadeOut("slow");
-//         setTimeout(function(){new WOW().init();}, 500);  
-//     });
 
     $('.reviews__slider').slick({
         arrows: false,
@@ -75,13 +61,6 @@ $(document).ready(function () {
             $(".humburger").trigger("click");
         }
     })
-
-
-
-//     $('.humburger').on('click', function (e) {
-//         e.preventDefault();
-//         $('.header-nav').slideToggle(400);
-//     });
        $('.humburger').on('click', function (e) {
         e.preventDefault();
         if($('.header-nav__list').hasClass('overflowAuto')) {
@@ -160,12 +139,6 @@ $(document).ready(function () {
     };
 
     checkWidth();
-
-
-
-    // $(window).on('resize load', function (e) {
-    //     checkWidth();
-    // });
 
 
 });
