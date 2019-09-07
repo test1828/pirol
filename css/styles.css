@@ -199,6 +199,15 @@ textarea:focus, input:focus{
   padding-bottom: 100px;
 }
 
+.about,
+.work,
+.process,
+.clients {
+  background-color: #ffffff
+}
+
+
+
 .about {
   padding-left: 30px;
   padding-right: 30px;
