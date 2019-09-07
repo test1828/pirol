@@ -117,16 +117,16 @@ $(document).ready(function () {
 
 
 
-//     function parallax() {
-//         var scrolled = $(window).scrollTop();
-//         $('.header').css('background-position', '50% ' + (-scrolled * 0.2) + 'px');
-//     };
+     function parallax() {
+         var scrolled = $(window).scrollTop();
+         $('.header').css('background-position', '50% ' + (-scrolled * 0.2) + 'px');
+     };
 
-//     parallax();
+     parallax();
 
-//     $(window).on('scroll', function (e) {
-//         parallax();
-//     });
+     $(window).on('scroll', function (e) {
+         parallax();
+     });
 
 
 
