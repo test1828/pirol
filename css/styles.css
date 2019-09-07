@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-html, body{
-height: 100%;
-width: 100%;
-overflow: hidden;
-} 
-
 body {
   font-family: Montserrat, sans-serif;
   padding-right: 0 !important;
