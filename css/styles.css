@@ -73,7 +73,7 @@ a, label{
   height: 48px;
   padding-left: 20px;
   border: 1px solid transparent;
-  border-radius: 0;
+  
 }
 
 input[type=text], input[type=submit], textarea{
