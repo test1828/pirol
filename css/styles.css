@@ -78,6 +78,8 @@ a, label{
 
 input[type=text], input[type=submit], textarea{
 	-webkit-appearance: none;
+	-webkit-border-radius:0px;
+	border-radius:0px;
 }
 
 .input:hover,
