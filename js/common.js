@@ -1,11 +1,10 @@
-$(document).ready(function () {
-
-       $(window).on('load', function () {
-		$(".loader-inner").fadeOut(); 
+ $(document).ready(function () {
+       $(".loader-inner").fadeOut(); 
     $(".loader").delay(400).fadeOut("slow");
      setTimeout(function(){new WOW().init();}, 500);  
-	});
+ });
 
+$(document).ready(function () {
     $('.reviews__slider').slick({
         arrows: false,
         dots: true,
