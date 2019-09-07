@@ -9,9 +9,6 @@ body {
   padding-right: 0 !important;
   position:relative;
   -webkit-text-size-adjust: none;
-  overflow: hidden;
-  height: 100%;
-  
 }
 
 img {
