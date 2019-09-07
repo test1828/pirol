@@ -78,10 +78,20 @@ $(document).ready(function () {
 
 
 
-    $('.humburger').on('click', function (e) {
+//     $('.humburger').on('click', function (e) {
+//         e.preventDefault();
+//         $('.header-nav').slideToggle(400);
+//     });
+       $('.humburger').on('click', function (e) {
         e.preventDefault();
+        if($('.header-nav__list').hasClass('overflowAuto')) {
+            $('.header-nav__list').removeClass('overflowAuto');
+        }
         $('.header-nav').slideToggle(400);
-    });
+        setTimeout(function () {
+            $('.header-nav__list').addClass('overflowAuto')
+        }, 401);
+       });
 
 
     var paramsClientsList = {
