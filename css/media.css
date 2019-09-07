@@ -25,6 +25,7 @@
 
     .hide-scroll {
         overflow: hidden;
+        height: 100%;
     }
 
     .toggle-menu {
