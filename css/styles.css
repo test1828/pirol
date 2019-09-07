@@ -833,4 +833,8 @@ input[type=text], input[type=submit], textarea{
   animation-delay: .15s;
 }
 
+textarea {
+  background:black;
+}
+
 
