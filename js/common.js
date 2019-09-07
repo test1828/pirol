@@ -9,7 +9,7 @@ $(document).ready(function () {
     
 //     loader();
     
-    $(window).on('load', function() { 
+    $(window).load(function() { 
          $(".loader-inner").fadeOut(); 
          $(".loader").delay(400).fadeOut("slow");
          setTimeout(function(){new WOW().init();}, 500);  
