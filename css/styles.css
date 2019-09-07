@@ -77,10 +77,13 @@ a, label{
 }
 
 input[type=text], input[type=submit], textarea{
-	outline: none;
 	-webkit-appearance: none;
 	-webkit-border-radius:0px;
 	border-radius:0px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 .input:hover,
