@@ -115,7 +115,6 @@
     .header-nav__list {
         flex-direction: column;
         align-items: center;
-        overflow-y: auto;
         height: 100%;
         -webkit-overflow-scrolling: touch;
     }
