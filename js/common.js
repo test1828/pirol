@@ -1,19 +1,13 @@
+function loader() {
+       $(".loader-inner").fadeOut(); 
+       $(".loader").delay(400).fadeOut("slow");
+       setTimeout(function(){new WOW().init();}, 500);  
+};
+
 $(document).ready(function () {
     
     
-//     function loader() {
-//         $(".loader-inner").fadeOut(); 
-//         $(".loader").delay(400).fadeOut("slow");
-//         setTimeout(function(){new WOW().init();}, 500);  
-//     };
-    
-//     loader();
-    
-    $(window).load(function() { 
-         $(".loader-inner").fadeOut(); 
-         $(".loader").delay(400).fadeOut("slow");
-         setTimeout(function(){new WOW().init();}, 500);  
-    });
+loader();
     
 //     $(window).ready(function() { 
 //         $(".loader-inner").fadeOut(); 
