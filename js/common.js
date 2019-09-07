@@ -1,9 +1,3 @@
-// $(document).ready(function () {
-//        $(".loader-inner").fadeOut(); 
-//     $(".loader").delay(400).fadeOut("slow");
-//      setTimeout(function(){new WOW().init();}, 500);  
-// });
-
 $(document).ready(function () {
 
        $(window).on('load', function () {
