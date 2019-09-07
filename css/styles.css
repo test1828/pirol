@@ -101,7 +101,7 @@ textarea:focus, input:focus{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-/*   background-attachment: fixed; */
+  background-attachment: fixed;
   min-height: 670px;
   padding-top: 30px;
 }
