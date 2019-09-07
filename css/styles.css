@@ -9,6 +9,7 @@ body {
   padding-right: 0 !important;
   position:relative;
   -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: none; 
 }
 
 img {
