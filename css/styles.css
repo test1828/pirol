@@ -41,6 +41,10 @@ a:hover {
   color: #757575;
 }
 
+a, label{
+	-webkit-tap-highlight-color: transparent;
+}
+
 .btn {
   background-color: #10c9c3;
   border: 0;
