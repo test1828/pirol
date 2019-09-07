@@ -145,5 +145,13 @@ $(document).ready(function () {
 
     checkWidth();
 
+	
+	$('#video a').click(function() {
+        var my_video = document.getElementById("video");
+        var my_video = my_video.getElementsByTagName("iframe")[0].contentWindow;
+        $('#video .video-overlay').fadeOut();
+        $('#video iframe').fadeIn();
+        my_video.postMessage('{"event": "command", "func": "playVideo", "args": ""}', '*');
+    });
 
 });
