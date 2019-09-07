@@ -75,6 +75,9 @@ a, label{
   border: 1px solid transparent;
   
 }
+.overflowAuto {
+  overflow: auto;
+}
 
 input[type=text], input[type=submit], textarea{
 	-webkit-appearance: none;
